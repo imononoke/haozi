@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Haozi</string>
+
+    <string name="daily">日常</string>
+    <string name="specialMoment">瞬间</string>
+
+    <string name="clickToAddImage">点击添加图片</string>
+</resources>
