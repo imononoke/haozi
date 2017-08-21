@@ -3,19 +3,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/doubleP"
-    android:paddingRight="@dimen/doubleP"
-    android:paddingTop="@dimen/p"
-    android:paddingBottom="@dimen/p"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
     android:orientation="vertical"
     >
 
-    <com.dianrong.android.widgets.MyEditText
+    <EditText
         android:id="@+id/etInputFolderName"
-        style="@style/DR.EditText"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginTop="@dimen/p"
+        android:layout_marginTop="15dp"
         android:hint="Input folder name"
         />
 

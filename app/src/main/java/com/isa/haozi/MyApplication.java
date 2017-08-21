@@ -1,18 +1,15 @@
 package com.isa.haozi;
 
-import android.support.multidex.MultiDexApplication;
-
-import com.dianrong.android.common.AppContext;
+import android.app.Application;
 
 /**
  * Created by Izumi on 17/8/16.
  */
 
-public class MyApplication extends MultiDexApplication {
+public class MyApplication extends Application {
 
     @Override
     public void onCreate() {
         super.onCreate();
-        AppContext.init(this);
     }
 }

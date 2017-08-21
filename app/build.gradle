@@ -69,10 +69,4 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
 
-    releaseCompile "com.dianrong.android:drstyle:1.0.7-release${SNAPSHOT ? "-SNAPSHOT" : ""}"
-    debugCompile "com.dianrong.android:drstyle:1.0.7-debug${SNAPSHOT ? "-SNAPSHOT" : ""}"
-    releaseCompile "com.dianrong.android:drutils:1.0.7-release${SNAPSHOT ? "-SNAPSHOT" : ""}"
-    debugCompile "com.dianrong.android:drutils:1.0.7-debug${SNAPSHOT ? "-SNAPSHOT" : ""}"
-    debugCompile "com.dianrong.android:drwidgets:1.0.21-debug${SNAPSHOT ? "-SNAPSHOT" : ""}"
-    releaseCompile "com.dianrong.android:drwidgets:1.0.21-release${SNAPSHOT ? "-SNAPSHOT" : ""}"
 }
