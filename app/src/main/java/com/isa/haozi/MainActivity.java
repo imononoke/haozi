@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initGridView() {
-        adapter = new SimpleAdapter(this, list, R.layout.layout_item, new String[] {"name"}, new int[] {R.id.tvName});
+        adapter = new SimpleAdapter(this, list, R.layout.layout_folder_item, new String[] {"name"}, new int[] {R.id.tvName});
         gridView.setAdapter(adapter);
 
         gridView.setOnItemClickListener((adapterView, view, position, id) -> {
